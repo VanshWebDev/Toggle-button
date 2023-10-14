@@ -58,31 +58,7 @@ body {
         0 0px 4px rgb(0, 0, 0);
     background: #fff;
 }
-@keyframes colorAnim {
-    0% {
-        background: 0px -1px 12px 4px rgba(49, 48, 48, 0.5);
-    }
 
-    20% {
-        background: 0px -1px 12px 4px rgba(1, 250, 55, 0.5);
-    }
-
-    40% {
-        background: 0px -1px 12px 4px rgba(1, 179, 250, 0.5);
-    }
-
-    60% {
-        background: 0px -1px 12px 4px rgba(5, 1, 250, 0.5);
-    }
-
-    80% {
-        background: 0px -1px 12px 4px rgba(250, 225, 1, 0.5);
-    }
-
-    100% {
-        background: 0px -1px 12px 4px rgba(250, 1, 250, 0.5);
-    }
-}
 .checkbox::after {
     content: "";
     position: absolute;
